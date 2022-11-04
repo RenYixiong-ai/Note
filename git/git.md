@@ -3,6 +3,8 @@
 工作逻辑图：
 ![逻辑图](./workflow.png)
 
+每次更改完文件，需要将文件先增加进版本库，然后再提交改变确认本次所有修改完成，并备注本次内容。
+
 reference:
 * [莫凡PYTHON]("https://mofanpy.com/tutorials/others/git")
 
