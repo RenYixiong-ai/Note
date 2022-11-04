@@ -35,13 +35,13 @@ reference:
 
 # 回到从前
 
-查看历史版本
+## 查看历史版本
 
 ```
     git lod --oneline
 ```
 
-回到过去的版本
+## 回到过去的版本
 
 ```
 # 不管我们之前有没有做了一些 add 工作, 这一步让我们回到 上一次的 commit
@@ -70,7 +70,7 @@ c6762a1 change 1
 13be9a7 create 1.py
 ```
 
-在回到历史版本之后再回来
+## 在回到历史版本之后再回来
 
 ```
 #第一步
@@ -91,4 +91,30 @@ c6762a1 change 1
 13be9a7 create 1.py
 ```
 
-单个文件回到过去
+## 单个文件回到过去
+
+利用 ```checkout``` 将过去版本的文件覆盖现在同名文件，然后作为当前版本的一个新的更新，更新进版本库。
+
+```
+$ git log --oneline
+# 输出
+904e1ba change 2
+c6762a1 change 1
+13be9a7 create 1.py
+---------------------
+$ git checkout c6762a1 -- 1.py  #checkout + id + -- + 文件名字
+```
+
+然后增加进版本库并提交改变
+
+```
+$ git add 1.py
+$ git commit -m "back to change 1 and add comment for 1.py"
+$ git log --oneline
+
+# 输出
+47f167e back to change 1 and add comment for 1.py
+904e1ba change 2
+c6762a1 change 1
+13be9a7 create 1.py
+```
