@@ -120,3 +120,12 @@ $ git log --oneline
 c6762a1 change 1
 13be9a7 create 1.py
 ```
+
+# 推送到远程仓库
+
+创建远程仓库、设置本地文件帐号密码
+
+将主分支推送到远程仓库
+```
+    git push -u origin master
+```
