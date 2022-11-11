@@ -4,5 +4,7 @@
 
 # 包含项目
 
-* pytorch
-* git
+* pytorch   -pytorch相关的代码学习
+* git       -git的使用技巧
+* RL        -强化学习代码
+* python    -python一些包的学习
