@@ -129,3 +129,32 @@ c6762a1 change 1
 ```
     git push -u origin master
 ```
+
+# 拉取远程仓库内容
+
+本地文件在拉取远程仓库前没有修改：
+
+```
+    git pull origin master
+```
+
+## 本地文件发生改动
+
+首先获取远程仓库的文件：
+```
+    git fetch --all
+```
+
+接下来有两个选择：
+* 直接覆盖本地文件
+* 将远程仓库文件作为本地的一个分支
+
+直接覆盖方案：
+```
+    git reset --hard origin/master
+```
+
+创建其它分支方案：
+```
+    git reset --hard origin/<branch_name>
+```
