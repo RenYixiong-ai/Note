@@ -207,7 +207,7 @@ if __name__ == '__main__':
     G = Generator(device).to(device)
 
     # 训练鉴别器和生成器
-    epochs = 1
+    epochs = 15
 
     for epoch in tqdm(range(epochs)):
         print("epoch = ", epoch + 1)

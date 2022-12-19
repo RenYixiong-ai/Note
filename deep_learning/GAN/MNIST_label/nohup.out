@@ -1,0 +1,202 @@
+cuda:0
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 60000 entries, 0 to 59999
+Columns: 785 entries, label to 28x28
+dtypes: int64(785)
+memory usage: 359.3 MB
+  0%|          | 0/15 [00:00<?, ?it/s]  7%|▋         | 1/15 [10:30<2:27:01, 630.08s/it] 13%|█▎        | 2/15 [20:47<2:14:52, 622.51s/it] 20%|██        | 3/15 [31:10<2:04:36, 623.03s/it] 27%|██▋       | 4/15 [41:33<1:54:11, 622.82s/it] 33%|███▎      | 5/15 [51:57<1:43:53, 623.36s/it] 40%|████      | 6/15 [1:02:22<1:33:34, 623.86s/it] 47%|████▋     | 7/15 [1:12:45<1:23:08, 623.62s/it] 53%|█████▎    | 8/15 [1:23:04<1:12:34, 622.08s/it] 60%|██████    | 9/15 [1:33:26<1:02:12, 622.04s/it] 67%|██████▋   | 10/15 [1:43:47<51:48, 621.63s/it]  73%|███████▎  | 11/15 [1:54:07<41:24, 621.24s/it] 80%|████████  | 12/15 [2:04:27<31:02, 620.84s/it] 87%|████████▋ | 13/15 [2:14:49<20:42, 621.34s/it] 93%|█████████▎| 14/15 [2:25:14<10:22, 622.41s/it]100%|██████████| 15/15 [2:35:40<00:00, 623.43s/it]100%|██████████| 15/15 [2:35:40<00:00, 622.71s/it]
+epoch =  1
+counter =  10000
+counter =  20000
+counter =  30000
+counter =  40000
+counter =  50000
+counter =  60000
+counter =  70000
+counter =  80000
+counter =  90000
+counter =  100000
+counter =  110000
+counter =  120000
+epoch =  2
+counter =  130000
+counter =  140000
+counter =  150000
+counter =  160000
+counter =  170000
+counter =  180000
+counter =  190000
+counter =  200000
+counter =  210000
+counter =  220000
+counter =  230000
+counter =  240000
+epoch =  3
+counter =  250000
+counter =  260000
+counter =  270000
+counter =  280000
+counter =  290000
+counter =  300000
+counter =  310000
+counter =  320000
+counter =  330000
+counter =  340000
+counter =  350000
+counter =  360000
+epoch =  4
+counter =  370000
+counter =  380000
+counter =  390000
+counter =  400000
+counter =  410000
+counter =  420000
+counter =  430000
+counter =  440000
+counter =  450000
+counter =  460000
+counter =  470000
+counter =  480000
+epoch =  5
+counter =  490000
+counter =  500000
+counter =  510000
+counter =  520000
+counter =  530000
+counter =  540000
+counter =  550000
+counter =  560000
+counter =  570000
+counter =  580000
+counter =  590000
+counter =  600000
+epoch =  6
+counter =  610000
+counter =  620000
+counter =  630000
+counter =  640000
+counter =  650000
+counter =  660000
+counter =  670000
+counter =  680000
+counter =  690000
+counter =  700000
+counter =  710000
+counter =  720000
+epoch =  7
+counter =  730000
+counter =  740000
+counter =  750000
+counter =  760000
+counter =  770000
+counter =  780000
+counter =  790000
+counter =  800000
+counter =  810000
+counter =  820000
+counter =  830000
+counter =  840000
+epoch =  8
+counter =  850000
+counter =  860000
+counter =  870000
+counter =  880000
+counter =  890000
+counter =  900000
+counter =  910000
+counter =  920000
+counter =  930000
+counter =  940000
+counter =  950000
+counter =  960000
+epoch =  9
+counter =  970000
+counter =  980000
+counter =  990000
+counter =  1000000
+counter =  1010000
+counter =  1020000
+counter =  1030000
+counter =  1040000
+counter =  1050000
+counter =  1060000
+counter =  1070000
+counter =  1080000
+epoch =  10
+counter =  1090000
+counter =  1100000
+counter =  1110000
+counter =  1120000
+counter =  1130000
+counter =  1140000
+counter =  1150000
+counter =  1160000
+counter =  1170000
+counter =  1180000
+counter =  1190000
+counter =  1200000
+epoch =  11
+counter =  1210000
+counter =  1220000
+counter =  1230000
+counter =  1240000
+counter =  1250000
+counter =  1260000
+counter =  1270000
+counter =  1280000
+counter =  1290000
+counter =  1300000
+counter =  1310000
+counter =  1320000
+epoch =  12
+counter =  1330000
+counter =  1340000
+counter =  1350000
+counter =  1360000
+counter =  1370000
+counter =  1380000
+counter =  1390000
+counter =  1400000
+counter =  1410000
+counter =  1420000
+counter =  1430000
+counter =  1440000
+epoch =  13
+counter =  1450000
+counter =  1460000
+counter =  1470000
+counter =  1480000
+counter =  1490000
+counter =  1500000
+counter =  1510000
+counter =  1520000
+counter =  1530000
+counter =  1540000
+counter =  1550000
+counter =  1560000
+epoch =  14
+counter =  1570000
+counter =  1580000
+counter =  1590000
+counter =  1600000
+counter =  1610000
+counter =  1620000
+counter =  1630000
+counter =  1640000
+counter =  1650000
+counter =  1660000
+counter =  1670000
+counter =  1680000
+epoch =  15
+counter =  1690000
+counter =  1700000
+counter =  1710000
+counter =  1720000
+counter =  1730000
+counter =  1740000
+counter =  1750000
+counter =  1760000
+counter =  1770000
+counter =  1780000
+counter =  1790000
+counter =  1800000
